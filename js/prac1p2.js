@@ -30,7 +30,7 @@ const personalMovieDB = {
 
     if (a != null && b != null && a != '' && b != '' && a.length <50){
         personalMovieDB.movies[a] = b; 
-        console.log("done");
+        console.log("Done");
     } else{
         console.log("Error")
         i--;
